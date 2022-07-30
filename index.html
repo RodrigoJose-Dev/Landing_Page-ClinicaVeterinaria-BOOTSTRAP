@@ -16,37 +16,93 @@
 </head>
 
 <body>
-
     <!--CONTAINER-->
     <div class="container">
-
         <!--HEADER-->
         <header class="d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <span class="fs-4 fw-bold"><i class='mdi mdi-dog'></i> Clínica Veterinária Fictícia</span>
+                <span class="fs-4 fw-bold"><i class="mdi mdi-dog"></i> Clínica Veterinária
+                    Fictícia</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Preços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Preços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contatos</a>
+                </li>
             </ul>
         </header>
 
-        <section>
-            <div class="row">
+        <!--SECTION headline-->
+        <section id="headline" class="mb-5">
+            <div class="row text-center text-md-start">
                 <div class="col-md-6 mt-3">
-                    <h2 class="fs-5">Aqui o seu amigo é tratado com carinho!</h2>
+                    <h2 class="mt-5 fs-5">
+                        Aqui o seu amigo é tratado com carinho!
+                    </h2>
                     <h1 class="display-2 fw-bold">Clínica Veterinária</h1>
-                    <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit
-                        incidunt numquam nisi
-                        totam? Sapiente, ex, ipsum amet repellat pariatur repellendus dolorum iusto, in odio quia
-                        voluptatum consequuntur tempore nisi?</p>
+                    <p class="mt-4 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Repellat odit incidunt numquam nisi totam?
+                        Sapiente, ex, ipsum amet repellat pariatur
+                        repellendus dolorum iusto, in odio quia voluptatum
+                        consequuntur tempore nisi?
+                    </p>
                     <a href="#" class="mt-5 w-50 p-4 fw-bold btn btn-primary">Agendar Consulta</a>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player class="m-0 m-auto float-none float-md-end"
+                        src="https://assets7.lottiefiles.com/packages/lf20_zsbnlz5v.json" background="transparent"
+                        speed="1" style="max-width: 70%;" loop autoplay>
+                    </lottie-player>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION servicos-->
+        <section id="servicos" class="text-center py-5 my-5">
+            <div class="row pt-5 mt-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold">Serviços Prestados</h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 mt-5">
+                    <img class="rounded-circle border shadow p-5" src="./img/vacina.png" alt="vacina">
+
+                    <h2 class="mt-3">Vacinação</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 mt-5">
+                    <img class="rounded-circle border shadow p-5" src="./img/primeiros-socorros.png"
+                        alt="primeiros-socorros">
+
+                    <h2 class="mt-3">Primeiros Socorros</h2>
+                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
+                        second column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 mt-5">
+                    <img class="rounded-circle border shadow p-5" src="./img/consulta.png" alt="consulta">
+
+                    <h2 class="mt-3">Consulta</h2>
+                    <p>And lastly this, the third column of representative placeholder content.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
             </div>
         </section>
 
