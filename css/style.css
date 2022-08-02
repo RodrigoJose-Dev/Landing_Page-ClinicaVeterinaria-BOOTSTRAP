@@ -1,0 +1,44 @@
+:root {
+    --darkColor1: #15202b;
+    --darkColor2: #192734;
+    --darkColor3: #253341;
+    --textColor: #fff;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+/*---DARKMODE---*/
+body.dark {
+    background-color: var(--darkColor2);
+    color: var(--textColor);
+}
+
+body.dark header {
+    background-color: #253341 !important;
+    color: var(--textColor) !important;
+}
+
+body.dark header a {
+    color: var(--textColor) !important;
+}
+
+body.dark section#precos div.card-body {
+    background-color: var(--darkColor1);
+}
+
+body.dark section#faq button.accordion-button {
+    background-color: var(--darkColor3);
+    color: var(--textColor);
+}
+
+body.dark section#faq div.accordion-body {
+    background-color: var(--darkColor1);
+    color: var(--textColor);
+}
+
+body.dark section#contato div.bg-light {
+    background-color: var(--darkColor3) !important;
+    color: var(--textColor) !important;
+}
