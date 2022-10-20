@@ -1,4 +1,4 @@
-# MainPage-ClinicaVeterinaria-BOOTSTRAP
+# Landing_Page-ClinicaVeterinaria-BOOTSTRAP
 Uma página principal de uma clínica veterinária fictícia desenvolvida com bootstrap.
 
 Site: https://rodrigojose-dev.github.io/MainPage-ClinicaVeterinaria-BOOTSTRAP/
